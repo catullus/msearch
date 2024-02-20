@@ -42,6 +42,8 @@ check_ssn <- function(files, output_dir, write=FALSE){
     })
 }
 
+# i didn't set up the last two arguments inside the function, output_dir and write. 
+# you can mess with that if you like
 processed_list <- check_ssn(file_list, output_dir = '/Users/ludumipsum/GitHub/msearch/data_checked/', write = TRUE)
 
 
